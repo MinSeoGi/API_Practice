@@ -1,14 +1,12 @@
 # API_Practice
 
----
-
  API를 연습할때 사용한 프로젝트 저장소
 
 
 
-### Google Map API
 
----
+
+## Google Map API
 
 나와 구글링이 함께해 만든, 다른 사람의 도움 없이 만든 첫 개인 API 프로젝트.
 
