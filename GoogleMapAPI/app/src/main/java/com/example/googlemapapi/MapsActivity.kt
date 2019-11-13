@@ -38,8 +38,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private val REQUEST_ACCESS_FINE_LOCATION = 1000
 
+    //자기가 움직인 경로를 선으로 표시
     private val polylineOptions = PolylineOptions().width(5f).color(Color.RED)
-    private lateinit var lastLocation: Location
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,7 +83,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // 1
         //mMap.isMyLocationEnabled = true
-
 // 2
 //        fusedLocationProviderClient.lastLocation.addOnSuccessListener(this) { location ->
 //            // Got last known location. In some rare situations this can be null.
